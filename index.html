@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <div class="test">
     <header>
-    <h1>A Simple Volunteer Registration Form</h1>
-    <p>Kindly note that all fields are essential.</p> <br>
+        <div class="flex">
+    <h1 class="Header">A Simple Volunteer Registration Form</h1>
+    <div id="Image"><img src="./Image/stock-vector-female-working-on-laptop-work-from-home-concept-2163217883-removebg-preview.png" alt ="Vector Image"></div>
+   
+</div>
+    <p class="note">Kindly note that all fields are essential.</p> <br>
 </header>
 <main>
     
@@ -43,7 +49,7 @@
 
         <div>
         <label for="file">Upload CV</label>
-        <input type="file" name="file" id="file" multiple placeholder="File Upload" required> <br> <br>
+        <input type="file" name="file" id="file" multiple required> <br> <br>
         </div>
 
         <div>
@@ -320,7 +326,7 @@
         </div>
 
         <div>
-        <button type="submit">Click Here</button>
+        <button type="submit" id="submit" >Click Here</button>
         </div>
 
     </form>
@@ -331,5 +337,6 @@
     <hr>
     <h6>Filling this form is compulsory for all personnel who wants to volunteer.</h6>
 </footer>
+</div>
 </body>
 </html>
