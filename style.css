@@ -91,6 +91,7 @@ input[type = "password"]{
     border-color: rgb(199, 134, 134);  
 }
 
+/*For submit Button*/
 #submit{
     cursor: pointer;
     border-radius: 20px;
